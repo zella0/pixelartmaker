@@ -1,0 +1,57 @@
+body{
+    background-color: grey;
+}
+
+#table{
+  table-layout: fixed;
+}
+
+#MainBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.blankStyle{
+
+}
+
+label{
+  margin: 0 10px;
+}
+
+p, h5{
+  margin: 4px;
+  padding: 0px;
+}
+
+.sizeInputForm{
+  display: flex;
+  flex-direction: row;
+
+}
+
+#gridBox{
+  background-color: white;
+  border: 20px solid #686868;
+  border-radius: 10px;
+}
+
+.red{
+  background-color: red;
+  height: 50px;
+  width: 50px;
+}
+
+.green{
+  background-color: green;
+  height: 50px;
+  width: 50px;
+}
+
+.blue{
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+}
